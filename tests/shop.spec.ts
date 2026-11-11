@@ -7,7 +7,7 @@ import type { ProductsResponse } from '../pages/HomePage';
 test.describe('Online Toolshop - UI tests, search function and categories', () => {
 
   test('Load the homepage and search for a product', async ({ homePage }) => {
-
+    // test
     await homePage.navigateTo();
 
     await expect(homePage.page).toHaveTitle(/Practice Software Testing/);
